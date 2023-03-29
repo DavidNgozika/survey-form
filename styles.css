@@ -4,10 +4,31 @@
 
 html {
     font-family: sans-serif;
-    background: 
-        linear-gradient(to right, rgb(57, 174, 178), rgb(100, 175, 175));
 }
 
 body {
     margin: 0;
+    background: 
+        linear-gradient(to right, rgb(57, 174, 178), rgb(100, 175, 175));
 }
+
+div.container {
+    margin: 2rem auto 0;
+}
+
+header.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+
+h1#title {
+    margin: 0;
+}
+
+p#description {
+    font-size: 120%;
+    font-style: italic;
+    margin: 0.35rem 0;
+}
+
