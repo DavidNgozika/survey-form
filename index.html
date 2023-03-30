@@ -21,6 +21,7 @@
                 <label id="name-label" for="name">Name</label>
                 <input 
                     id="name" 
+                    class="form-control"
                     type="text" 
                     placeholder="Enter your name" 
                     required
@@ -31,6 +32,7 @@
                 <label id="email-label" for="email">Email</label>
                 <input 
                     id="email" 
+                    class="form-control"
                     type="email" 
                     placeholder="Enter your email" 
                     required
@@ -41,6 +43,7 @@
                 <label id="number-label" for="number">Age</label>
                 <input 
                     id="number" 
+                    class="form-control"
                     type="number" 
                     placeholder="Age" 
                     min="10" 
@@ -49,7 +52,8 @@
             </div>
 
             <div class="form-element">
-                <select id="dropdown">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown" class="form-control">
                     <option value=""></option>
                     <option value="student">Student</option>
                     <option value="intern">Intern</option>
@@ -154,7 +158,7 @@
                         type="checkbox" 
                         value="angular"
                     />
-                    Angular
+                    Angular.js
                 </label>
             </div>
 
@@ -169,7 +173,7 @@
             </div>
 
             <div class="form-element">
-                <button id="submit" type="submit">submit</button>
+                <button id="submit" type="submit">Submit</button>
             </div>
         </form>
     </div>
